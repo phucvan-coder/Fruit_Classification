@@ -49,7 +49,7 @@ st.markdown(
 )
 
 # Streamlit app
-st.title(f"<p class='title'>🍍 Fruit Classification 🍍")
+st.title(f"🍍 Fruit Classification 🍍")
 st.markdown("---")  # Add a horizontal rule for separation
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
